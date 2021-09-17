@@ -1,10 +1,10 @@
 const express = require('express');
 const fs = require('fs');
 const router = express.Router();
+
 const requestHandler = (req, res) => {
     const url = req.url;
     const method = req.method;
-
     if (url === '/') {
         res.setHeader('Content-type', 'text/html');
         res.write('<html>');
