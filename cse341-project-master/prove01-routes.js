@@ -25,7 +25,7 @@ const requestHandler = (req, res) => {
         res.write('</html>');
         res.end();
     }
-    if (url === '/create-user') {
+    if (url === '/create-user' && method === "POST") {
         const body = [];
         req.on('data', (chunk) => {
             body.push(chunk);
