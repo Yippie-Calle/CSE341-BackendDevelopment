@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "nodemon prove01.js",
+    "start": "nodemon app.js",
     "test": "node test.js"
   },
   "dependencies": {
