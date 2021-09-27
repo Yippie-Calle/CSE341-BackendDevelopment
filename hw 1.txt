@@ -5,24 +5,24 @@ Please answer the questions in this text file and submit it to I-Learn.
 https://github.com/Yippie-Calle/CSE341-BackendDevelopment
 
 3. Briefly list and describe the elements of the application that are functioning. 
-Nothing is really working. If you look at my code in activity01 i was able to follow and work it out. however the files you see do not do anything. 
+I believe everything is working. It is barebones but it works. 
 
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
-I cannot get the routing to work. 
+I cant remove the + between the user names
 
 5. Briefly describe the "coolest" thing you learned while completing this assignment.
-installing node. 
+getting prove01 to work with prove01-route
 
 6. If you could change this assignment to be more effective or helpful, what would you change?
-More instuction on the routing and the team assingment.
+started the full block at begining of the week instead of the last
 
 7. Please select the category you feel best describes your assignment:
-   1 - Some attempt was made ******
+   1 - Some attempt was made 
    2 - Developing, but significantly deficient
    3 - Slightly deficient, but still mostly adequate
-   4 - Meets requirements
+   4 - Meets requirements ******
    5 - Shows creativity and excels above and beyond requirements
 
 8. Provide a brief justification (1-2 sentences) for selecting that category.
 
-Well i tried what I can. I was placed in a team however our team met and i was at work, and was not able to meet with them and get assitance on how or what to do. 
+When i switch from 3000/ to 3000/users i am able to see different things and what the assignemnt is asking for. 
