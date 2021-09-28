@@ -1,0 +1,31 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+https://git.heroku.com/warm-bayou-23698.git
+
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/Yippie-Calle/CSE341-BackendDevelopment
+
+3. Briefly list and describe the elements of the application that are functioning. 
+
+everything looks to be working except the CSS it still is a work in progress
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+CSS is not loading how they have it in the videos i may be missing a few lines of code. 
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+Coolest thing is learning how to use EJS. helps clean up your code more and more. 
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+
+More explination of benefits of Heroku. I feel like its the same as github
+
+7. Please select the category you feel best describes your assignment:
+   
+   3
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+Not only am I late but the code missing the CSS 
