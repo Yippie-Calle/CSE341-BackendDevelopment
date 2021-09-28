@@ -2,8 +2,7 @@ const adminData = require('./admin');
 const express = require('express');
 
 
-const rootDir = require('../util/path');
-const adminData = require('./admin');
+//const rootDir = require('../util/path');
 
 const router = express.Router();
 

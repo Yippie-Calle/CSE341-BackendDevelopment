@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 
 const rootDir = require('../util/path');
-
+const adminData = require('./admin');
 const router = express.Router();
 
 const products = [];
@@ -27,4 +27,4 @@ router.post('/add-product', (req, res, next) => {
 
 exports.routes = router;
 exports.products = products;
-module.exports = router;
+// module.exports = router;
