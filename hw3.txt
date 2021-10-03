@@ -1,0 +1,38 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+
+https://nameless-ridge-07159.herokuapp.com/ | https://git.heroku.com/nameless-ridge-07159.git
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+https://github.com/Yippie-Calle/CSE341-BackendDevelopment
+
+(its still under prove2)
+
+3. Briefly list and describe the elements of the application that are functioning. 
+
+We are able to gather the Id of the product. We are able to creat products. We can send info to the Console of the product we are trying to pass to and forth across MVC  
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+
+At the time of making this txt file the thing that is missing is just finalizing the Cart
+
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+MVC is probably the coolest. Also the behind the scenes of how some of these shopping apps work.
+
+6. If you could change this assignment to be more effective or helpful, what would you change? 
+
+there is many times that I am amazed at how much time is needed to watch these videos and copy what the user is doing. I find my self taking 10 minutes to watch a 3 min video. 
+
+7. Please select the category you feel best describes your assignment:
+
+   4 - Meets requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+In order to have time to do my other class assignments i did what I can to meeet the requirements for the assingment. 
