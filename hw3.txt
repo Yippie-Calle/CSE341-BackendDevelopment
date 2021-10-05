@@ -3,9 +3,7 @@ Please answer the questions in this text file and submit it to I-Learn.
 
 1. Copy and paste the URL for your web application (e.g., Heroku):
 
-https://nameless-ridge-07159.herokuapp.com/ | https://git.heroku.com/nameless-ridge-07159.git
-
-https://nameless-ridge-07159.herokuapp.com/
+https://powerful-wildwood-18926.herokuapp.com/
 
 2. Copy and paste the URL for your source code repository (e.g., GitHub):
 

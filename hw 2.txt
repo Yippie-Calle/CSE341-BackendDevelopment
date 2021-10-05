@@ -2,7 +2,7 @@ After completing the assignment, be sure to push to Github and Heroku.
 Please answer the questions in this text file and submit it to I-Learn.
 
 1. Copy and paste the URL for your web application (e.g., Heroku):
-https://git.heroku.com/warm-bayou-23698.git
+https://powerful-wildwood-18926.herokuapp.com/
 
 
 2. Copy and paste the URL for your source code repository (e.g., GitHub):
