@@ -2,8 +2,8 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-
+//const mongoose = require('mongoose');
+const mongoConnect = require('./util/database');
 const errorController = require('./controllers/error');
 //const User = require('./models/user');
 
@@ -32,6 +32,7 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-mongoConnect(() => {
+mongoConnect(client => {
+  console.log(client);
   app.listen(process.env.PORT || 3000);
 });
