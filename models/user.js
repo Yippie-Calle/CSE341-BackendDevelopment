@@ -16,6 +16,13 @@ class User {
     return db.collection('users').insertOne(this);
   }
 
+  static findById(userId) {
+    const db = getDb();
+    return db.collection('users').findOne({
+      _id: new ObjectId(userId)
+    });
+  }
+
   addToCart(product) {
     const cartProductIndex = this.cart.items.findIndex(cp => {
       return cp.productId.toString() === product._id.toString();
@@ -38,10 +45,13 @@ class User {
     const db = getDb();
     return db
       .collection('users')
-      .updateOne(
-        { _id: new ObjectId(this._id) },
-        { $set: { cart: updatedCart } }
-      );
+      .updateOne({
+        _id: new ObjectId(this._id)
+      }, {
+        $set: {
+          cart: updatedCart
+        }
+      });
   }
 
   getCart() {
@@ -51,7 +61,11 @@ class User {
     });
     return db
       .collection('products')
-      .find({ _id: { $in: productIds } })
+      .find({
+        _id: {
+          $in: productIds
+        }
+      })
       .toArray()
       .then(products => {
         return products.map(p => {
@@ -72,10 +86,15 @@ class User {
     const db = getDb();
     return db
       .collection('users')
-      .updateOne(
-        { _id: new ObjectId(this._id) },
-        { $set: { cart: { items: updatedCartItems } } }
-      );
+      .updateOne({
+        _id: new ObjectId(this._id)
+      }, {
+        $set: {
+          cart: {
+            items: updatedCartItems
+          }
+        }
+      });
   }
 
   addOrder() {
@@ -92,13 +111,20 @@ class User {
         return db.collection('orders').insertOne(order);
       })
       .then(result => {
-        this.cart = { items: [] };
+        this.cart = {
+          items: []
+        };
         return db
           .collection('users')
-          .updateOne(
-            { _id: new ObjectId(this._id) },
-            { $set: { cart: { items: [] } } }
-          );
+          .updateOne({
+            _id: new ObjectId(this._id)
+          }, {
+            $set: {
+              cart: {
+                items: []
+              }
+            }
+          });
       });
   }
 
@@ -106,7 +132,9 @@ class User {
     const db = getDb();
     return db
       .collection('orders')
-      .find({ 'user._id': new ObjectId(this._id) })
+      .find({
+        'user._id': new ObjectId(this._id)
+      })
       .toArray();
   }
 
@@ -114,7 +142,9 @@ class User {
     const db = getDb();
     return db
       .collection('users')
-      .findOne({ _id: new ObjectId(userId) })
+      .findOne({
+        _id: new ObjectId(userId)
+      })
       .then(user => {
         console.log(user);
         return user;
