@@ -21,13 +21,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
-  // User.findById('')
-  //   .then(user => {
-  //     req.user = new User(user.name, user.email, user.cart, user._id);
-  //     next();
-  //   })
-  //   .catch(err => console.log(err));
-  // next();
+  User.findById('6162559a0b6f31394ae0ee91')
+    .then(user => {
+      //req.user = new User(user.name, user.email, user.cart, user._id);
+      req.user = user;
+      next();
+    })
+    .catch(err => console.log(err));
 });
 
 app.use('/admin', adminRoutes);
