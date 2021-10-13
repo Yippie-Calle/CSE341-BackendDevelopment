@@ -1,0 +1,37 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+
+https://lit-cliffs-38670.herokuapp.com/
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+https://github.com/Yippie-Calle/Academind.git
+
+its still named prove 2 i do not want to break more things. 
+
+3. Briefly list and describe the elements of the application that are functioning. 
+
+  everything but the cart funtion
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+The cart is still giving me problems as well as users. not sure why. I followed the videos well. but its not working for me 
+
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+This week I was able to get the heroku to work. thanks to my teammates. Then i was able to play around and fix the mongodb. compass is pretty cool. 
+
+6. If you could change this assignment to be more effective or helpful, what would you change? 
+
+I think there needs to be more guidance. Especially with errors. like these are things that you may find. Like a video like. Previous semester these are common things that were causing students problem. not all but maybe top 2 things. 
+
+7. Please select the category you feel best describes your assignment:
+
+   4 - Meets requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+In order to have time to do my other class assignments i did what I can to meeet the requirements for the assignment
